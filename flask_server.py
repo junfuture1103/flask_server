@@ -6,15 +6,26 @@ app = Flask(__name__)
 api = Api(app)
 app.config['DEBUG'] = True
 
+
 @app.route('/dd')
 def index():
     return 'Hello juntheworld'
 
-@api.route('/hello/<int:name>')  # url pattern으로 name 설정
+
+@api.route('/traces')  # url pattern으로 name 설정
 class testAPI(Resource):
-    def get(self, name):
-        return {"message" : "Welcome, %d!" % name}
-    
+    def get(self):
+        xStart = request.args.get('xStart', 1.0)
+        yStart = request.args.get('yStart', 1.0)
+        xEnd = request.args.get('xEnd', 1.0)
+        yEnd = request.args.get('yEnd', 1.0)
+        return {
+            "xStart": xStart,
+            "yStart": yStart,
+            "xEnd": xEnd,
+            "yEnd": yEnd,
+        }
+
     # def post(self):
     #     iris = load_iris()
     #     parsed_request = request.json.get('content')
@@ -22,6 +33,7 @@ class testAPI(Resource):
 
     #     print(parsed_request)
     #     return result
+
 
 if __name__ == "__main__":
     app.run(debug=True)
@@ -38,4 +50,3 @@ if __name__ == "__main__":
 # response.encoding = 'utf-8'
 
 # print(response.text)
-
