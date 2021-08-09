@@ -1,9 +1,5 @@
 from flask import Flask, jsonify, request
 from flask_restx import Resource, Api, reqparse
-import sklearn
-from sklearn.datasets import load_iris
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split
 import requests
 
 app = Flask(__name__)
