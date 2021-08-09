@@ -1,6 +1,5 @@
 absl-py==0.11.0
 ailment==9.0.4663
-angr==9.0.4663
 aniso8601==9.0.1
 appdirs==1.4.4
 archinfo==9.0.4663
@@ -132,7 +131,6 @@ toml==0.10.1
 toposort==1.5
 traitlets==5.0.4
 typing-extensions==3.7.4.3
-unicorn==1.0.2rc3
 urllib3==1.26.6
 virtualenv==20.0.35
 virtualenv-clone==0.5.4
