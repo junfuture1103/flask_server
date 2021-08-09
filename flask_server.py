@@ -14,18 +14,18 @@ app.config['DEBUG'] = True
 def index():
     return 'Hello juntheworld'
 
-@api.route('/test')
+@api.route('/hello/<int:name>')  # url pattern으로 name 설정
 class testAPI(Resource):
-    def get(self):
-        return jsonify({"resut":"hihi juntheworld"})
+    def get(self, name):
+        return {"message" : "Welcome, %d!" % name}
     
-    def post(self):
-        iris = load_iris()
-        parsed_request = request.json.get('content')
-        result = iris.feature_names
+    # def post(self):
+    #     iris = load_iris()
+    #     parsed_request = request.json.get('content')
+    #     result = iris.feature_names
 
-        print(parsed_request)
-        return result
+    #     print(parsed_request)
+    #     return result
 
 if __name__ == "__main__":
     app.run(debug=True)
