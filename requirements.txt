@@ -1,74 +1,149 @@
-absl-py==0.13.0    
-astor==0.8.1     
-astunparse==1.6.3     
-blas==1.0
-blinker==1.4       
-brotlipy==0.7.0       
-c-ares ==1.17.1    
-ca-certificates==2021.7.5  
-cachetools  ==4.2.2     
-certifi     ==2021.5.30 
-cffi        ==1.14.6    
-chardet     ==4.0.0       
-click       ==8.0.1     
-coverage    ==5.5       
-cryptography==3.4.7     
-cython==0.29.24   
-gast==0.4.0     
-google-auth ==1.21.3    
-google-auth-oauthlib  ==0.4.4     
-google-pasta          ==0.2.0     
-grpcio                ==1.36.1    
-h5py                  ==2.10.0    
-hdf5                  ==1.10.6    
-idna                  ==2.10      
-importlib-metadata    ==3.10.0    
-intel-openmp          ==2021.3.0  
-keras-preprocessing   ==1.1.2     
-ld_impl_linux-64      ==2.35.1    
-libffi                ==3.3       
-libgcc-ng             ==9.3.0     
-libgfortran-ng        ==7.5.0     
-libgfortran4          ==7.5.0     
-libgomp               ==9.3.0     
-libprotobuf           ==3.17.2    
-libstdcxx-ng          ==9.3.0     
-markdown              ==3.3.4     
-mkl                   ==2021.3.0  
-mkl-service           ==2.4.0     
-mkl_fft               ==1.3.0     
-mkl_random            ==1.2.2     
-ncurses               ==6.2       
-numpy                 ==1.20.3    
-numpy-base            ==1.20.3    
-oauthlib              ==3.1.1     
-openssl               ==1.1.1k    
-opt_einsum            ==3.3.0     
-pip                   ==21.2.3
-protobuf              ==3.17.2    
-pyasn1                ==0.4.8     
-pyasn1-modules        ==0.2.8     
-pycparser             ==2.20      
-pyjwt                 ==2.1.0     
-pyopenssl             ==20.0.1    
-pysocks               ==1.7.1     
-python                ==3.8.10    
-python-flatbuffers    ==1.12      
-pytz                  ==2021.1    
-readline              ==8.1       
-requests              ==2.25.1    
-requests-oauthlib     ==1.3.0     
-rsa                   ==4.7.2     
-scipy                 ==1.6.2     
-setuptools            ==56.0.0
-six                   ==1.16.0    
-sqlite                ==3.36.0       
-termcolor             ==1.1.0     
-tk                    ==8.6.10    
-urllib3               ==1.26.6    
-werkzeug              ==1.0.1     
-wheel                 ==0.36.2    
-wrapt                 ==1.12.1    
-xz                    ==5.2.5     
-zipp                  ==3.5.0     
-zlib                  ==1.2.11
+absl-py==0.11.0
+ailment==9.0.4663
+angr==9.0.4663
+aniso8601==9.0.1
+appdirs==1.4.4
+archinfo==9.0.4663
+astor==0.8.1
+astroid==2.4.2
+astunparse==1.6.3
+attrs==21.2.0
+backcall==0.2.0
+bcrypt==3.2.0
+bitstring==3.1.7
+blinker==1.4
+boltons==20.2.1
+brotlipy==0.7.0
+cachetools==4.1.1
+capstone==4.0.2
+certifi==2020.6.20
+cffi==1.14.3
+chardet==4.0.0
+claripy==9.0.4663
+cle==9.0.4663
+click==8.0.1
+colored-traceback==0.3.0
+coverage=5.5
+CppHeaderParser==2.7.4
+cryptography==3.4.7
+cycler==0.10.0
+Cython==0.29.24
+decorator==4.4.2
+distlib==0.3.1
+dpkt==1.9.4
+fastrand==1.2.4
+filelock==3.0.12
+Flask==2.0.1
+flask-restx==0.5.0
+flatbuffers==1.12
+future==0.18.2
+gast==0.3.3
+gitdb==4.0.5
+GitPython==3.1.11
+google-auth==1.24.0
+google-auth-oauthlib==0.4.2
+google-pasta==0.2.0
+grpcio==1.32.0
+gunicorn==20.1.0
+h5py==2.10.0
+idna==2.10
+importlib-metadata==3.10.0
+inotify==0.2.10
+intervaltree==3.1.0
+ipdb==0.13.3
+ipython==7.18.1
+ipython-genutils==0.2.0
+isort==5.6.0
+itanium-demangler==1.0
+itsdangerous==2.0.1
+jedi==0.17.2
+Jinja2==3.0.1
+joblib==1.0.0
+jsonschema==3.2.0
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
+kiwisolver==1.2.0
+lazy-object-proxy==1.4.3
+lz4==3.1.0
+Mako==1.1.4
+Markdown==3.3.3
+MarkupSafe==2.0.1
+matplotlib==3.3.2
+mccabe==0.6.1
+mkl-fft==1.3.0
+mkl-random==1.2.2
+mkl-service==2.4.0
+mmh3==2.5.1
+msgpack==1.0.0
+mulpyplexer==0.8
+networkx==2.5
+nose==1.3.7
+numpy==1.19.2
+oauthlib==3.1.1
+opt-einsum==3.3.0
+packaging==21.0
+paramiko==2.7.2
+parso==0.7.1
+pbr==5.5.1
+pefile==2019.4.18
+pgrep==0.0.0
+pickleshare==0.7.5
+playsound==1.2.2
+plumbum==1.6.9
+ply==3.11
+progressbar2==3.53.1
+prompt-toolkit==3.0.7
+protobuf==3.14.0
+psutil==5.7.2
+pwntools==4.6.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.20
+pyelftools==0.27
+Pygments==2.7.0
+pygraphviz==1.6
+PyJWT==2.1.0
+pylint==2.6.0
+pyOpenSSL==20.0.1
+pyparsing==2.4.7
+pyrsistent==0.18.0
+pyserial==3.5
+PySMT==0.9.0
+PySocks==1.7.1
+python-utils==2.4.0
+pytz==2021.1
+pyvex==9.0.4663
+r2pipe==1.5.0
+requests==2.25.1
+requests-oauthlib==1.3.0
+rope==0.18.0
+ROPGadget==6.6
+rpyc==4.1.5
+rsa==4.7
+scikit-learn==0.24.0
+scipy==1.6.0
+selenium==3.141.0
+six==1.15.0
+smmap==3.0.4
+sortedcontainers==2.3.0
+stevedore==3.2.2
+tensorboard==2.4.1
+tensorboard-plugin-wit==1.7.0
+tensorflow==2.4.0
+tensorflow-estimator==2.4.0
+termcolor==1.1.0
+threadpoolctl==2.1.0
+toml==0.10.1
+toposort==1.5
+traitlets==5.0.4
+typing-extensions==3.7.4.3
+unicorn==1.0.2rc3
+urllib3==1.26.6
+virtualenv==20.0.35
+virtualenv-clone==0.5.4
+virtualenvwrapper==4.8.4
+wcwidth==0.2.5
+Werkzeug==2.0.1
+wrapt==1.12.1
+z3-solver==4.8.9.0
+zipp==3.5.0
